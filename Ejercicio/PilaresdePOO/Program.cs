@@ -50,7 +50,7 @@ namespace PilaresdePOO
             Console.WriteLine("Tipo de Animal: " + a1.TipoAnimal);
             Console.WriteLine("Nombre: " + ag1.NombreAve );
             Console.WriteLine("Color del Plumaje:  " + ag1.ColorPlumaje);
-            Console.WriteLine("El Hábitad del Animal es:  " + ag1.Habitat);
+            Console.WriteLine("El Hábitat del Animal es:  " + ag1.Habitat);
             ag1.VolarAlto();
             ag1.Tamano();
             Console.WriteLine("");
@@ -68,7 +68,7 @@ namespace PilaresdePOO
             Console.WriteLine("Tipo de Animal: " + a2.TipoAnimal);
             Console.WriteLine("Nombre: " + L1.NombreAve );
             Console.WriteLine("Color del Plumaje:  " + L1.ColorPlumaje);
-            Console.WriteLine("El Hábitad del Animal es:  " + L1.Habitat);
+            Console.WriteLine("El Hábitat del Animal es:  " + L1.Habitat);
             Console.WriteLine("Se alimenta de: " + L1.Comida);
             L1.Volar();
             L1.Tamano();
