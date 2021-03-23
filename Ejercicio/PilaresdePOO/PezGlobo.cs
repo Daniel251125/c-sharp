@@ -4,9 +4,15 @@ namespace PilaresdePOO
 {
     class PezGlobo:Peces
     {
-        public void Inflarse()
+        public string Alimentacion { get; set; }
+        public void caracteristica()
         {
-            
+            inflarse();
+        }
+
+        private void inflarse()
+        {
+            Console.WriteLine("PARTICULARIDAD DEL ANIMAL: Se infla");
         }
     }
 }

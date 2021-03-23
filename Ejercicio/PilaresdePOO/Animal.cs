@@ -3,13 +3,10 @@ namespace PilaresdePOO
 {
     abstract class Animal
     {
-        public int CodigoAnimal { get; set; }
+        public int idAnimal { get; set; }
         public string TipoAnimal { get; set; }
 
-        public void Comer()
-        {
-            Console.WriteLine("Comiendo...");
-        }
+
     }
 
 
