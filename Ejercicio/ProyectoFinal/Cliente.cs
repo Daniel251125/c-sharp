@@ -2,9 +2,9 @@ public class Cliente: Persona
 {
     public string LugarOrigen { get; set; }
 
-    public Cliente(int id, string nombre, int edad, string lugarorigen, int telefono, string correo)
+    public Cliente(int Id, string nombre, int edad, string lugarorigen, int telefono, string correo)
     {
-        id = id;
+        id = Id;
         Nombre = nombre;
         Edad = edad;
         LugarOrigen = lugarorigen;
