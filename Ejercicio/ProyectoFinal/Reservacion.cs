@@ -9,17 +9,15 @@ public class Reservacion
     public string NReservacion { get; set; }
     public double Precio { get; set; }
     public Cliente Cliente { get; set; }
-    public Recepcionista Recepcionista { get; set; }
     public Habitacion Habitacion { get; set; }
 
-    public Reservacion(int codigoreservacion, DateTime fecha, int numeropersonas, string nreservacion, Cliente cliente, Recepcionista recepcionista, Habitacion habitacion)
+    public Reservacion(int codigoreservacion, DateTime fecha, int numeropersonas, string nreservacion, Cliente cliente,  Habitacion habitacion)
     {
         CodigoReservacion = codigoreservacion;
         Fecha = fecha;
         NumeroPersonas = numeropersonas;
         NReservacion = nreservacion;
         Cliente = cliente;
-        Recepcionista = recepcionista;
         Precio = habitacion.Precio;
         
     }

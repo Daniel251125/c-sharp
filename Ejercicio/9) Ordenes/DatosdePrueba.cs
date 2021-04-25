@@ -134,6 +134,7 @@ public class DatosdePrueba
 
         Orden nuevaOrden = new Orden(nuevoCodigo, DateTime.Now, "SPS" + nuevoCodigo, cliente, vendedor);
         ListaOrdenes.Add(nuevaOrden);
+        
 
         while(true)
         {
