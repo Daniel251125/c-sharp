@@ -18,24 +18,32 @@ namespace ProyectoFinal
                 Console.WriteLine("");
                 Console.WriteLine("*********************************************************");
                 Console.WriteLine("");
-                Console.WriteLine(" 1. --Nuevo Cliente");
-                Console.WriteLine(" 2. --Nuevo Reservacion");
+                Console.WriteLine(" 1. --Nuevo Reservacion");
+                Console.WriteLine(" 2. --Lista de Clientes");
                 Console.WriteLine(" 3. --Lista de Habitaciones disponibles");
                 Console.WriteLine(" 4. --Lista de Reservaciones");
-                Console.WriteLine(" 5. --Lista de Clientes Hospedados");
-                Console.WriteLine(" 6. --Salir");
+                Console.WriteLine(" 5. --Salir");
                 opcion = Console.ReadLine();
 
 
                 switch (opcion)
                 {
                     case "1":
-                    nopcion.nuevocliente();
+                    nopcion.CrearReservacion();
+                    break;
+                    case "2":
+                    nopcion.listaclientes();
+                    break;
+                    case "3":
+                    nopcion.listahabitaciones();
+                    break;
+                    case "4":
+                    nopcion.ListaReservaciones();
                     break;                    
                 default:
                     break;
                 }
-                 if(opcion=="6")
+                 if(opcion=="5")
                  {
                      break;
                  }
